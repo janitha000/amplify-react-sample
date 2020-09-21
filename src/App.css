@@ -6,7 +6,8 @@
   display: flex;
   padding-top: 100px;
   justify-content: space-evenly;
-  
+  align-self: center;
+  align-items: center;
 }
 
 .app__table{

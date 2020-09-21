@@ -1,0 +1,8 @@
+type Actor @model {
+  id: ID!
+  firstName: String!
+  lastName: String
+  age: Int
+  movies: [String]
+  gender: String
+}

@@ -1,16 +1,21 @@
 * {
     margin: 0;
   }
+
   
-  .app{
-    display: flex;
-    padding-top: 100px;
-    justify-content: space-evenly;
-    
-  }
-  
-  .app__table{
+  .home__table{
     width: 600px;
   }
   
-  
+  .app__input{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      flex: wrap;
+      max-width: 600px;
+      border-radius: 10px;
+  }
+
+  .app__input > input {
+      margin-right: 10px;
+  }
