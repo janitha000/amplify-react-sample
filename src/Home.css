@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+  }
+  
+  .app{
+    display: flex;
+    padding-top: 100px;
+    justify-content: space-evenly;
+    
+  }
+  
+  .app__table{
+    width: 600px;
+  }
+  
+  
